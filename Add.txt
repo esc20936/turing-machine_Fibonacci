@@ -1,0 +1,22 @@
+6 14
+q0
+q1
+q2
+q3
+q4
+q5
+q0 0 q1 X R
+q0 c q5 B R
+q1 0 q1 0 R
+q1 c q2 c R
+q2 0 q2 0 R
+q2 B q3 0 L
+q3 0 q3 0 L
+q3 c q4 c L
+q4 0 q4 0 L
+q4 X q0 X R
+q5 0 q5 0 R
+q5 c q5 c R
+q5 B q5 B R
+q5 X q5 X R
+q0

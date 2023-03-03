@@ -1,0 +1,29 @@
+digraph G {
+	rankdir=LR size="80,5"
+	node [shape=doublecircle]
+	q0
+	node [shape=circle]
+	q1
+	node [shape=circle]
+	q2
+	node [shape=circle]
+	q3
+	node [shape=circle]
+	q4
+	node [shape=circle]
+	q5
+	q0 -> q1 [label="0, X/R"]
+	q0 -> q5 [label="c, B/R"]
+	q1 -> q1 [label="0, 0/R"]
+	q1 -> q2 [label="c, c/R"]
+	q2 -> q2 [label="0, 0/R"]
+	q2 -> q3 [label="B, 0/L"]
+	q3 -> q3 [label="0, 0/L"]
+	q3 -> q4 [label="c, c/L"]
+	q4 -> q4 [label="0, 0/L"]
+	q4 -> q0 [label="X, X/R"]
+	q5 -> q5 [label="0, 0/R"]
+	q5 -> q5 [label="c, c/R"]
+	q5 -> q5 [label="B, B/R"]
+	q5 -> q5 [label="X, X/R"]
+}
